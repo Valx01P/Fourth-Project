@@ -1,0 +1,250 @@
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+}
+
+#title {
+  background: #000000 url(https://i.imgur.com/RnZFYXK.png) center bottom/cover no-repeat;
+  padding: 3% 15% 25%;
+}
+
+p {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #922945;
+}
+
+h4 {
+  font-size: 1.5rem;
+  color: #fff;
+  line-height: 1.5;
+}
+
+.logo {
+font-family: "Ubuntu";
+font-weight: 700;
+font-size: 2.5rem;
+margin-left: 5px;
+color: #922945;
+}
+
+.mariologo {
+  width: 5%;
+}
+
+.log-in {
+  margin-right: 5%;
+}
+
+ .nav-link {
+   margin: 0 40px;
+   color: #948162;
+ }
+
+ .img-parent {
+  position: relative;
+  padding:1px;
+ }
+
+.title-image {
+  transform: rotate(12deg);
+  position: absolute;
+  width: 62%;
+  left: 15%;
+  top:.1%;
+}
+
+.navbar {
+  padding: 0 0 5.5rem;
+}
+
+.big-heading {
+  color: #000;
+}
+
+.btn {
+  margin-top: 1rem;
+  background-color: #884008;
+  color: #f3b852;
+}
+
+.big-heading {
+color: #fff;
+font-size: 3rem;
+}
+
+/* Section 2 */
+
+#features {
+background-color: #000;
+padding: 20% 15% 15%;
+
+}
+
+.red {
+  font-family: "Ubuntu";
+  font-weight: 600;
+  color: #922945;
+  font-size: 3rem;
+  font-style: italic;
+}
+
+.red-sm {
+  color: #922945;
+}
+
+.marioimg {
+width: 80%;
+border-radius: 10%;
+}
+
+#features-2 {
+background: #fff url(https://bin.smwcentral.net/u/24573/ghost%2Bhouse_night1.png) center center/cover no-repeat;
+padding: 20% 11% 15%;
+}
+
+/* Carousel */
+
+#testimonials {
+  background-color: #000;
+  padding: 5% 15% 3% 15%;
+  color: #922945;
+  text-align: center;
+}
+
+.testimonial-image {
+    width: 20%;
+    border-radius: 10%;
+    margin: 20px;
+}
+
+/* Pricing */
+
+#pricing {
+  background: #fff url(https://bin.smwcentral.net/u/24573/ghost%2Bhouse_night1.png) center center/cover no-repeat;
+  padding: 15% 15% 15%;
+  text-align: center;
+}
+
+.section-heading {
+  color: #fff;
+}
+.s-text {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  color: #8f8f8f;
+}
+
+.price-text {
+  color:#fff;
+  font-family: "Ubuntu";
+  font-weight: lighter;
+}
+
+.card-body {
+  background-color: #000;
+}
+
+.card-header {
+  background-color: #050505;
+  color: #fff;
+}
+
+.buy-button-1 {
+background: #fff;
+color: #000;
+font-weight: bold;
+}
+
+.buy-button-2 {
+background: rgb(0,0,0);
+background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 0%, rgba(162,160,160,1) 100%);
+color: #000;
+font-weight: bold;
+}
+
+.buy-button-3 {
+background: rgb(0,0,0);
+background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(255,219,100,1) 0%, rgba(230,180,32,1) 100%);
+color: #000;
+font-weight: bold;
+}
+
+.card-image {
+  background-color: #000;
+}
+
+.price-image {
+  width: 80%;
+  height: 15rem;
+}
+
+/* CTA */
+
+#cta {
+  background-color: #000;
+  text-align: center;
+  padding: 5% 15% 5%;
+}
+
+#cta .big-heading {
+  margin-bottom: 3rem;
+}
+
+.cta-button {
+  margin: 0 2%;
+}
+
+/* PSA */
+
+#psa {
+  background: #fff url(https://bin.smwcentral.net/u/24573/ghost%2Bhouse_night1.png) center center/cover no-repeat;
+  padding: 8% 15% 8%;
+}
+
+.psa-container {
+  text-align: center;
+}
+
+.warioimg {
+  width: 50%;
+  border-radius: 15%;
+}
+
+.margin-sm {
+  margin-bottom: 4rem;
+}
+
+/* Footer Section */
+
+#footer {
+  background-color: #000;
+  padding: 2% 15% 2%;
+  text-align: center;
+}
+
+.social-icon {
+  color: #922945;
+  margin: 20px 10px;
+}
+
+.copyright {
+  color: #922945;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
